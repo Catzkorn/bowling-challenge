@@ -11,6 +11,7 @@ This challenge will be completed with Javascript. Ruby logic is currently a plac
 - Clone the repo 
 - run `bundle`
 
+# Ruby
 ## IRB
 
 To use the scorecard, open IRB in your terminal
