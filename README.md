@@ -47,3 +47,30 @@ charlotte@Charlottes-MBP bowling-challenge % irb
 2.7.0 :014 > game.total_score
  => 8 
  ```
+
+ # JavaScript
+
+ ## Run tests for Jasmine-version
+
+ ```
+open public/javascript/SpecRunner.html  
+ ```
+
+ ## To use
+
+ In your browser inspect element console do:
+
+ ```JavaScript
+ var scorecard = new ScoreCard();
+
+ /* To add a roll*/
+
+ scorecard.addRoll(2);
+ scorecard.addRoll(2);
+ scorecard.addRoll(5);
+ scorecard.addRoll(4);
+
+  /* To view total*/
+scorecard.totalScore()
+17
+ ```
